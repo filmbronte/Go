@@ -19,7 +19,7 @@ func main() {
 		}
 		fmt.Println(j)
 	}
-	
+
 	fmt.Println("---------- While loop -------------")
 	i := 1
 	for i <= 3 {
@@ -27,10 +27,8 @@ func main() {
 		i++
 	}
 	
-	
 	fmt.Println("------- Loop in a function --------")
 	fmt.Println(sumN(5))
-
 	
 }
 
