@@ -14,12 +14,20 @@ func main() {
 
 	fmt.Println("-----------------------------------")
 	for j := 0; j <= 10; j++ {
-		if j%2 == 0 {
+		if j%2 != 0 {
 			continue
 		}
 		fmt.Println(j)
 	}
-
+	
+	fmt.Println("-----------------------------------")
+	if num := 9; num < 0 {
+        fmt.Println(num, "is negative")
+    } else if num < 10 {
+        fmt.Println(num, "has 1 digit")
+    } else {
+        fmt.Println(num, "has multiple digits")
+    }
 }
 
 func sumN(n int) int {
